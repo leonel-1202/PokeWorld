@@ -31,7 +31,7 @@ function PokemonList() {
         </div>
 
         {loading && <p style={styles.msg}>Cargando pokémons...</p>}
-        {error && <p style={styles.error}>❌ {error}</p>}
+        {error && <p style={styles.error}> Error {error}</p>}
 
         <div style={styles.grid}>
             {pokemonsFiltrados.map(pokemon => (
