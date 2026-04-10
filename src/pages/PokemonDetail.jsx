@@ -61,7 +61,7 @@ function PokemonDetail() {
     )
 
     if (loading) return <p style={styles.msg}>Cargando...</p>
-    if (error) return <p style={styles.error}> Error de conexión {error}</p>
+    if (error) return <p style={styles.error}> Error de carga {error}</p>
 
     return (
         <div style={styles.pagina}>
